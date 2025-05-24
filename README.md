@@ -17,11 +17,11 @@ Import the package and use it to calculate SIP (Systematic Investment Plan) retu
 ```Javascript
 import calculateSIP from 'sip-calculator';
 
-const monthlyInvestment = 25000; // ₹
+const monthlyInvestment = 5000; // ₹
 const annualRateOfInterest = 12; // %
 const timePeriod = 10; // years
 
-// Argument order should be same
+// Arguments order should be same
 console.log(calculateSIP(monthlyInvestment, annualRateOfInterest, timePeriod));
 ```
 
