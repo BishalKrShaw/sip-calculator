@@ -1,0 +1,23 @@
+{
+  "name": "sip-calculator",
+  "version": "1.0.0",
+  "description": "This is a npm package to calculate SIP (Systematic Investment Plan)",
+  "keywords": [
+    "npm-package"
+  ],
+  "homepage": "https://github.com/BishalKrShaw/sip-calculator#readme",
+  "bugs": {
+    "url": "https://github.com/BishalKrShaw/sip-calculator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BishalKrShaw/sip-calculator.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Bishal Kumar Shaw",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
