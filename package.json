@@ -1,9 +1,10 @@
 {
   "name": "sip-calculator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This is a npm package to calculate SIP (Systematic Investment Plan)",
   "keywords": [
-    "npm-package", "sip-calculator"
+    "npm-package",
+    "sip-calculator"
   ],
   "homepage": "https://github.com/BishalKrShaw/sip-calculator#readme",
   "bugs": {
