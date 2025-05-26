@@ -29,9 +29,9 @@ console.log(calculateSIP(monthlyInvestment, annualRateOfInterest, timePeriod));
 
 ```Javascript
 {
-  investedAmount: '600000.00',
-  estimatedReturn: '561695.38',
-  totalValue: '1161695.38'
+  investedAmount: 600000.00,  // type is Number
+  estimatedReturn: 561695.38, // type is Number
+  totalValue: 1161695.38      // type is Number
 }
 ```
 
