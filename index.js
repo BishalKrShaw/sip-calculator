@@ -11,9 +11,9 @@ const calculateSIP = (monthlyInvestment, annualRateOfInterest, timePeriod) => {
   const amountInvested = monthlyInvestment*12*timePeriod;
   
   return {
-    investedAmount: (amountInvested).toFixed(2),
-    estimatedReturn: (fv-amountInvested).toFixed(2),
-    totalValue: fv.toFixed(2)
+    investedAmount: Number((amountInvested).toFixed(2)),
+    estimatedReturn: Number((fv-amountInvested).toFixed(2)),
+    totalValue: Number(fv.toFixed(2))
   };
 
 }
